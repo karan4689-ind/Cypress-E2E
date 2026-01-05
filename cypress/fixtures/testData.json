@@ -1,0 +1,14 @@
+{
+    "Login":{
+        "username": "test123@depic.com",
+        "password": "1234567"
+    },
+
+    "Product":{
+        "ProductName": "MacBook"
+    },
+
+    "Messages":{
+        "SuccessMsg": " Success: You have added MacBook to your shopping cart! "
+    }
+}
