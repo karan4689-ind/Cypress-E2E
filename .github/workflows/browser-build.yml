@@ -1,4 +1,4 @@
-name: Browser tests
+name: Sanity tests
 on: push
 jobs:
   cypress-run:
