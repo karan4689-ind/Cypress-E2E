@@ -1,4 +1,4 @@
-name: Script tests
+name: Browser tests
 on: push
 jobs:
   cypress-run:
