@@ -1,7 +1,7 @@
 export class homePage{
 
     weblocators = {
-        search: "input[class='form-control input-lgl']",
+        search: "input[class='form-control input-lg']",
         searchIcon: ".input-group-btn",
         success: "div.alert",
 
