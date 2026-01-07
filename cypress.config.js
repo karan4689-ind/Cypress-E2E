@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: "kewbd7",
   reporter: "cypress-mochawesome-reporter",
   e2e: {
     baseUrl: "https://naveenautomationlabs.com/opencart/index.php?route=account/login",

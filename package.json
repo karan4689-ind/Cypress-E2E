@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:addtocart": "npx cypress run --spec cypress/e2e/addToCartflow.cy.js",
+    "test:addtocart": "npx cypress run --spec cypress/e2e/addToCartflow.cy.js --record --key aa4eeb09-f58a-4c6d-83bd-eb204d883267",
     "test:register": "npx cypress run --spec cypress/e2e/registerFlow.cy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --record --key aa4eeb09-f58a-4c6d-83bd-eb204d883267",
+    "test1": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
